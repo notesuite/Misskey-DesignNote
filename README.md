@@ -1,11 +1,10 @@
 # Misskey Design Note
 
-## 決まったこと
-### 共通
+## 共通
 * TypeScriptを使用
 * notice -> notification
 
-### API
+## API
 * promised-mongoを使用
 * mongooseを使用しない
 * Userコレクションにフォロー数/フォロワー数は保持しない
@@ -17,8 +16,10 @@
   * Node.js(npm)
   * MongoDB
   * GraphicsMagick
+* REST APIの結果のJSONの型は `T | {id: string, message: string}[]`
+  * エラーかどうかはステータスコードで判断
 
-### Web
+## Web
 * SPAにする
 * Stylusを利用
 * デザイン(HTML, CSS)は可能な限り流用
