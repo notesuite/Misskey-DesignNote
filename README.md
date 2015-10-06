@@ -12,6 +12,8 @@
 * Userコレクションにフォロー数/フォロワー数は保持しない
 * ユーザー/ステータスの削除
   * コレクションにisDeletedフラグをつけて管理
+* REST APIとStreaming APIを提供
+* Streaming API内でSAuth可能
 
 ### Web
 * SPAにする
