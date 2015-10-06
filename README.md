@@ -1,4 +1,5 @@
 # Misskey Design Note
+
 ## 決まったこと
 * MongoDBを使用
 * promised-mongoを使用
@@ -6,3 +7,4 @@
 
 ## 決めたいこと
 * Webからはリクエストは全て公開APIを使うかどうか
+* レポジトリ構成
