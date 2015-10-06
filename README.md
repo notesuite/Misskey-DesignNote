@@ -10,6 +10,8 @@
 * promised-mongoを使用
 * mongooseを使用しない
 * Userコレクションにフォロー数/フォロワー数は保持しない
+* ユーザー/ステータスの削除
+  * コレクションにisDeletedフラグをつけて管理
 
 ### Web
 * SPAにする
