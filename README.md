@@ -6,7 +6,6 @@
 * notice -> notification
 
 ### API
-* MongoDBを使用
 * promised-mongoを使用
 * mongooseを使用しない
 * Userコレクションにフォロー数/フォロワー数は保持しない
@@ -14,6 +13,10 @@
   * コレクションにisDeletedフラグをつけて管理
 * REST APIとStreaming APIを提供
 * Streaming API内でSAuth可能
+* 外部ツールへの依存
+  * Node.js(npm)
+  * MongoDB
+  * GraphicsMagick
 
 ### Web
 * SPAにする
