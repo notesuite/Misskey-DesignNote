@@ -8,6 +8,7 @@
   * API
   * Web
   * Image - イメージサーバー
+
 ## API
 * promised-mongoを使用
 * mongooseを使用しない
@@ -23,6 +24,7 @@
 * REST APIのエラーのJSONの型は `T | {id: string, message: string}[]`
   * エラーかどうかはステータスコードで判断
 * API名には基本的に複数形を使用
+* APIの結果の返却はJSONのみ
 
 ## Web
 * SPAにする
