@@ -22,6 +22,7 @@
   * GraphicsMagick
 * REST APIのエラーのJSONの型は `T | {id: string, message: string}[]`
   * エラーかどうかはステータスコードで判断
+* API名には基本的に複数形を使用
 
 ## Web
 * SPAにする
