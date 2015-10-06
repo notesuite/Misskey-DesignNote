@@ -2,7 +2,7 @@
 
 ## 共通
 * TypeScriptを使用
-* notice -> notification
+* notice → notification
 * レポジトリ
   * Core - 副作用のない関数が集まる場所
   * API
