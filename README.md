@@ -7,3 +7,4 @@
 * mongooseを使用しない
 * Userコレクションにフォロー数/フォロワー数は保持しない
 * notice -> notification
+* CSSの記述にはStylusを利用
