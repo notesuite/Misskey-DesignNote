@@ -16,7 +16,7 @@
   * Node.js(npm)
   * MongoDB
   * GraphicsMagick
-* REST APIの結果のJSONの型は `T | {id: string, message: string}[]`
+* REST APIのエラーのJSONの型は `T | {id: string, message: string}[]`
   * エラーかどうかはステータスコードで判断
 
 ## Web
