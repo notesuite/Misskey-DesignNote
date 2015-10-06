@@ -3,7 +3,11 @@
 ## 共通
 * TypeScriptを使用
 * notice -> notification
-
+* レポジトリ
+  * Core - 副作用のない関数が集まる場所
+  * API
+  * Web
+  * Image - イメージサーバー
 ## API
 * promised-mongoを使用
 * mongooseを使用しない
