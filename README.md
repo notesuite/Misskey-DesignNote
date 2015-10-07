@@ -28,8 +28,8 @@
 * DB接続時にコレクションが存在しなければ作成する
 
 ### データベースのコレクション
-* User #12
-* Image #15
+* User [#12](https://github.com/MissKernel/Misskey-DesignNote/issues/12)
+* Image [#15](https://github.com/MissKernel/Misskey-DesignNote/issues/15)
 
 ## Web
 * SPAにする
