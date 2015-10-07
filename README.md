@@ -15,9 +15,6 @@
 ## API
 * promised-mongoを使用
 * mongooseを使用しない
-* Userコレクションにフォロー数/フォロワー数は保持しない
-* ユーザー/ステータスの削除
-  * コレクションにisDeletedフラグをつけて管理
 * REST APIとStreaming APIを提供
 * Streaming API内でSAuth可能
 * 外部ツールへの依存
@@ -29,6 +26,10 @@
 * API名には基本的に複数形を使用
 * APIの結果の返却はJSONのみ
 * DB接続時にコレクションが存在しなければ作成する
+
+### データベースのコレクション
+* User #12
+* Image #13
 
 ## Web
 * SPAにする
