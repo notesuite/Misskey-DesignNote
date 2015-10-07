@@ -13,8 +13,7 @@
   * 保存時には大文字と小文字を区別しないが、表示時には大文字と小文字を区別する
 
 ## API
-* promised-mongoを使用
-* mongooseを使用しない
+* promised-mongoをmongooseの代わりに使用
 * REST APIとStreaming APIを提供
 * Streaming API内でSAuth可能
 * 外部ツールへの依存
