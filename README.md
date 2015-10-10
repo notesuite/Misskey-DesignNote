@@ -30,7 +30,9 @@
 ### データベースのコレクション
 * User [#12](https://github.com/MissKernel/Misskey-DesignNote/issues/12)
 * Status [#13](https://github.com/MissKernel/Misskey-DesignNote/issues/13)
-* Image [#15](https://github.com/MissKernel/Misskey-DesignNote/issues/15)
+
+<!-- * Image [#15](https://github.com/MissKernel/Misskey-DesignNote/issues/15) -->
+
 * Application [#20](https://github.com/MissKernel/Misskey-DesignNote/issues/20)
 
 ## Web
