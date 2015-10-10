@@ -33,9 +33,17 @@
 * Application [#20](https://github.com/MissKernel/Misskey-DesignNote/issues/20)
 
 ## Web
+* 外部ツールへの依存
+  * Node.js(npm)
+  * MongoDB
 * SPAにする
 * Stylusを利用
 * デザイン(HTML, CSS)は可能な限り流用
 * ブラウザ側で使うライブラリをbowerで管理 
 * Webからのリクエストは全て公開APIを使う
 * Webでしか必要とされない情報はWebでコレクションを作り対応する
+
+## Image
+* 外部ツールへの依存
+  * Node.js(npm)
+  * Nginx
