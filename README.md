@@ -49,4 +49,3 @@
 ## Image
 * 外部ツールへの依存
   * Node.js(npm)
-  * Nginx
