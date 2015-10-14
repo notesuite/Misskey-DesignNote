@@ -1,4 +1,5 @@
 # Misskey Design Note
+https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/edit?usp=sharing
 
 ## 共通
 * TypeScriptを使用
