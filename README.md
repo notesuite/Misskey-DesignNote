@@ -15,7 +15,6 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
 * すべての画像はアルバムシステムで一元管理する
 
 ## API
-* promised-mongoをmongooseの代わりに使用
 * REST APIとStreaming APIを提供
 * Streaming API内でSAuth可能
 * 外部ツールへの依存
@@ -27,7 +26,6 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
   * エラーかどうかはステータスコードで判断
 * API名には基本的に複数形を使用
 * APIの結果の返却はJSONのみ
-* DB接続時にコレクションが存在しなければ作成する
 
 ### データベースのコレクション
 * User [#12](https://github.com/MissKernel/Misskey-DesignNote/issues/12)
