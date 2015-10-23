@@ -26,7 +26,7 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
     * 複数サーバー間でイベントを伝播させるために利用
   * **node-gyp**
     * *bcrypt*を利用するのに必要
-  * **Python**
+  * **Python** (2.7.x)
     * *bcrypt*を利用するのに必要
     * パスを通しておく必要があります。
   * **Visual Stadio 2012 for Windows Desktop** (Windowsの場合)
