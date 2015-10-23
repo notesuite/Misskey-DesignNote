@@ -22,8 +22,11 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
   * MongoDB
   * GraphicsMagick
   * Redis
+    * 複数サーバー間でイベントを伝播させるために利用
   * node-gyp
+    * bcryptを利用するのに必要
   * Python
+    * bcryptを利用するのに必要
 * REST APIのエラーのJSONの型は `T | {id: string, message: string}[]`
   * エラーかどうかはステータスコードで判断
 * API名には基本的に複数形を使用
