@@ -18,17 +18,18 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
 * REST APIとStreaming APIを提供
 * Streaming API内でSAuth可能
 * 外部ツールへの依存
-  * Node.js(npm)
-  * MongoDB
-  * GraphicsMagick
-  * Redis
+  * **Node.js(npm)**
+  * **MongoDB**
+  * **GraphicsMagick**
+    * *gm*を利用するのに必要
+  * **Redis**
     * 複数サーバー間でイベントを伝播させるために利用
-  * node-gyp
-    * bcryptを利用するのに必要
-  * Python
-    * bcryptを利用するのに必要
-  * Visual Stadio 2012 for Windows Desktop (Windowsの場合)
-    * bcryptを利用するのに必要
+  * **node-gyp**
+    * *bcrypt*を利用するのに必要
+  * **Python**
+    * *bcrypt*を利用するのに必要
+  * **Visual Stadio 2012 for Windows Desktop** (Windowsの場合)
+    * *bcrypt*を利用するのに必要
 * REST APIのエラーのJSONの型は `T | {id: string, message: string}[]`
   * エラーかどうかはステータスコードで判断
 * API名には基本的に複数形を使用
