@@ -4,6 +4,7 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
 ## 共通
 * TypeScriptを使用
 * notice → notification
+* misskey.xyz/bbs/{insert any path here} -> bbs.misskey.xyz/{insert any path here}
 * レポジトリ
   * Core - 副作用のない関数が集まる場所
   * API
