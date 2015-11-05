@@ -48,7 +48,6 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
 ## Web
 * 外部ツールへの依存
   * Node.js(npm)
-  * MongoDB
   * **GraphicsMagick**
     * *gm*を利用するのに必要
 * SPAにする
