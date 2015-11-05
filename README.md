@@ -15,16 +15,16 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
   * 保存時には大文字と小文字を区別しないが、表示時には大文字と小文字を区別する
 * すべての画像はアルバムシステムで一元管理する
 
+## 何処かに設置する外部ツール
+* **MongoDB**
+* **Redis**
+  * 複数サーバー間でイベントを伝播させるために利用
+
 ## API
 * REST APIとStreaming APIを提供
 * Streaming API内でSAuth可能
 * 外部ツールへの依存
   * **Node.js(npm)**
-  * **MongoDB**
-  * **GraphicsMagick**
-    * *gm*を利用するのに必要
-  * **Redis**
-    * 複数サーバー間でイベントを伝播させるために利用
   * **node-gyp**
     * *bcrypt*を利用するのに必要
   * **Python** (2.7.x)
@@ -49,6 +49,8 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
 * 外部ツールへの依存
   * Node.js(npm)
   * MongoDB
+  * **GraphicsMagick**
+    * *gm*を利用するのに必要
 * SPAにする
 * Stylusを利用
 * デザイン(HTML, CSS)は可能な限り流用
