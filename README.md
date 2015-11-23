@@ -23,15 +23,6 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
 ## API
 * REST APIとStreaming APIを提供
 * Streaming API内でSAuth可能
-* 外部ツールへの依存
-  * **Node.js(npm)**
-  * **node-gyp**
-    * *bcrypt*を利用するのに必要
-  * **Python** (2.7.x)
-    * *bcrypt*を利用するのに必要
-    * パスを通しておく必要があります。
-  * **Visual Stadio 2012 for Windows Desktop** (Windowsの場合)
-    * *bcrypt*を利用するのに必要
 * REST APIのエラーのJSONの型は `T | {id: string, message: string}[]`
   * エラーかどうかはステータスコードで判断
 * API名には基本的に複数形を使用
