@@ -17,21 +17,9 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
 * Streaming API内でSAuth可能
 * REST APIのエラーのJSONの型は `T | {id: string, message: string}[]`
   * エラーかどうかはステータスコードで判断
-* API名には基本的に複数形を使用
 * APIの結果の返却はJSONのみ
 
 ## Web
-* 外部ツールへの依存
-  * Node.js(npm)
-  * **GraphicsMagick**
-    * *gm*を利用するのに必要
-* SPAにする
-* Stylusを利用
-* デザイン(HTML, CSS)は可能な限り流用
 * ブラウザ側で使うライブラリをbowerで管理 
 * Webからのリクエストは全て公開APIを使う
 * Webでしか必要とされない情報はWebでコレクションを作り対応する
-
-## Image
-* 外部ツールへの依存
-  * Node.js(npm)
