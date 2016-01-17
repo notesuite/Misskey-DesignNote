@@ -2,13 +2,7 @@
 https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/edit?usp=sharing
 
 ## 共通
-* レポジトリ
-  * Core - 副作用のない関数が集まる場所
-  * API
-  * Web
-  * Image - イメージサーバー
 * スクリーンネーム
-  * `/^[a-zA-Z0-9\-]{1,20}$/`
   * 保存時には大文字と小文字を区別しないが、表示時には大文字と小文字を区別する
 * すべての画像はアルバムシステムで一元管理する
 
