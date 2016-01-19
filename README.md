@@ -14,6 +14,5 @@ https://docs.google.com/drawings/d/1vn0SF9QWRk9kqRUO77kSH-G6ol_GX3ykwDLki8MG3LM/
 * APIの結果の返却はJSONのみ
 
 ## Web
-* ブラウザ側で使うライブラリをbowerで管理 
 * Webからのリクエストは全て公開APIを使う
 * Webでしか必要とされない情報はWebでコレクションを作り対応する
